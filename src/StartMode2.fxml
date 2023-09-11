@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="464.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SwitchScene">
+   <children>
+      <ImageView fitHeight="691.0" fitWidth="473.0" layoutX="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/桌面/程式設計/個人小project/image/16pic_2555192_s.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="play" layoutX="205.0" layoutY="298.0" prefHeight="43.0" prefWidth="178.0" style="-fx-background-radius: 200;">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font></TextField>
+      <Button fx:id="startMode2" layoutX="170.0" layoutY="377.0" mnemonicParsing="false" onAction="#switchToAIMotion" style="-fx-background-radius: 200; -fx-background-color: BROWN; -fx-text-fill: WHITE;" text="START">
+         <font>
+            <Font name="OCR A Extended" size="32.0" />
+         </font></Button>
+      <Label layoutX="84.0" layoutY="302.0" text="Player:">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="148.0" text="P v E" textFill="#b91717">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="60.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="75.0" layoutY="463.0" prefHeight="189.0" prefWidth="330.0" style="-fx-background-color: TRANSPARENT;" text="規則說明:&#10;玩家一開始為黑棋，電腦為白棋，&#10;玩家先開始遊戲，&#10;若玩家五子連成，則玩家勝&#10;若電腦五子連成，則玩家輸&#10;起手無回大丈夫，不許悔棋!&#10;">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="19.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="104.0" layoutY="244.0" prefHeight="35.0" prefWidth="264.0" text="Please enter player name:">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="13.0" layoutY="10.0" mnemonicParsing="false" onAction="#switchToStart" prefHeight="56.0" prefWidth="56.0" style="-fx-background-color: TRANSPARENT;">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/桌面/程式設計/個人小project/image/images.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SwitchScene">
+   <children>
+      <ImageView fitHeight="541.0" fitWidth="368.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/桌面/程式設計/個人小project/image/16pic_2555192_s.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="mode1" layoutX="122.0" layoutY="272.0" mnemonicParsing="false" onAction="#SwitchToMode1" prefHeight="50.0" prefWidth="124.0" style="-fx-background-radius: 200; -fx-background-color: BROWN; -fx-text-fill: WHITE;" text="P v P">
+         <font>
+            <Font name="OCR A Extended" size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="mode2" layoutX="122.0" layoutY="344.0" mnemonicParsing="false" onAction="#SwitchToMode2" prefHeight="50.0" prefWidth="124.0" style="-fx-background-radius: 200; -fx-background-color: BROWN; -fx-text-fill: WHITE;" text="P v E">
+         <font>
+            <Font name="OCR A Extended" size="27.0" />
+         </font>
+      </Button>
+      <Label layoutX="53.0" layoutY="101.0" prefHeight="50.0" prefWidth="258.0" style="-fx-background-radius: 200;" text="Gobang" textFill="#ae1313">
+         <font>
+            <Font name="Eras Demi ITC" size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="461.0" prefHeight="50.0" prefWidth="195.0" text="資訊系 F74092308 尤莙琇">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="199.0" prefHeight="50.0" prefWidth="206.0" text="Please choose the mode:">
+         <font>
+            <Font name="Eras Bold ITC" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
